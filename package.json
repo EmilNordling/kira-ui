@@ -1,0 +1,59 @@
+{
+	"name": "untitled-ui",
+	"version": "0.1.0",
+	"description": "ui lib",
+	"author": "Emil Nordling",
+	"main": "dist/poestk-element.cjs.js",
+	"module": "dist/poestk-element.esm.js",
+	"browser": "dist/poestk-element.iife.js",
+	"types": "dist/types/index.d.ts",
+	"scripts": {
+		"dev": "ve dev -p 8001",
+		"validate": "tsc --noEmit",
+		"build:types": "tsc --emitDeclarationOnly",
+		"build:js": "rollup -c",
+		"build": "yarn build:types && yarn build:js",
+		"jest": "jest",
+		"test": "jest"
+	},
+	"peerDependencies": {
+		"framer-motion": "^1.6.17",
+		"mobx": "^5.15.0",
+		"mobx-react-lite": "^1.5.1",
+		"react": "^16.12.0",
+		"react-dom": "^16.12.0",
+		"shortid": "^2.2.15",
+		"styled-components": "^4.4.1"
+	},
+	"dependencies": {
+		"react-hook-form": "^3.28.2",
+		"reset-css": "^5.0.1"
+	},
+	"devDependencies": {
+		"@testing-library/react": "^9.3.2",
+		"@types/jest": "^24.0.23",
+		"@types/react": "^16.9.11",
+		"@types/react-dom": "^16.9.4",
+		"@types/shortid": "^0.0.29",
+		"@types/styled-components": "^4.4.0",
+		"babel-jest": "^24.9.0",
+		"framer-motion": "^1.6.17",
+		"jest": "^24.9.0",
+		"mobx": "^5.15.0",
+		"mobx-react-lite": "^1.5.1",
+		"prettier": "^1.19.1",
+		"react": "^16.12.0",
+		"react-dom": "^16.12.0",
+		"rollup": "^1.27.3",
+		"rollup-plugin-babel": "^4.3.3",
+		"rollup-plugin-commonjs": "^10.1.0",
+		"rollup-plugin-node-resolve": "^5.2.0",
+		"shortid": "^2.2.15",
+		"styled-components": "^4.4.1",
+		"ts-jest": "^24.1.0",
+		"tslint": "^5.20.1",
+		"tslint-config-visibacare": "^0.2.0",
+		"typescript": "^3.6.3",
+		"ve-react-cli": "^1.5.5"
+	}
+}
