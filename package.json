@@ -1,6 +1,6 @@
 {
 	"name": "untitled-ui",
-	"version": "0.1.0",
+	"version": "0.1.2",
 	"description": "ui lib",
 	"author": "Emil Nordling",
 	"main": "dist/poestk-element.cjs.js",
@@ -48,6 +48,7 @@
 		"rollup-plugin-babel": "^4.3.3",
 		"rollup-plugin-commonjs": "^10.1.0",
 		"rollup-plugin-node-resolve": "^5.2.0",
+		"rollup-plugin-replace": "^2.2.0",
 		"shortid": "^2.2.15",
 		"styled-components": "^4.4.1",
 		"ts-jest": "^24.1.0",
